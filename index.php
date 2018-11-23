@@ -1,7 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 24.11.2018
- * Time: 1:05
- */
+<?require ($_SERVER["DOCUMENT_ROOT"].'/sopdu/modules/core/header.php');?>
+   test
+<?require ($_SERVER["DOCUMENT_ROOT"].'/sopdu/modules/core/footer.php');?>
