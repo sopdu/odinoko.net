@@ -1,8 +1,9 @@
 <?require ($_SERVER["DOCUMENT_ROOT"].'/sopdu/modules/core/header.php');?>
   <div class="contaner">
    <?
-   userLocation::main();
+   #userLocation::main();
 ?>
+      <?='<pre>'; print_r(user::location()); '</pre>';?>
   </div>
 
 
